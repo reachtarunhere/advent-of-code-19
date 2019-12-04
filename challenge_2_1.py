@@ -29,12 +29,13 @@ def integer_prog_computer(tape):
 
     return tape
 
-# restore to 1202 alarm
 
+if __name__ == "__main__":
+    # restore to 1202 alarm
 
-gravity_assist_program[1] = 12
-gravity_assist_program[2] = 2
+    gravity_assist_program[1] = 12
+    gravity_assist_program[2] = 2
 
-# run
+    # run
 
-print(integer_prog_computer(gravity_assist_program)[0])
+    print(integer_prog_computer(gravity_assist_program)[0])
